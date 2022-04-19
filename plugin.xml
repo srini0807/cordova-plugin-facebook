@@ -20,7 +20,7 @@
     <preference name="APP_ID" default="2388088921482039"/>
     <preference name="APP_NAME" default="GEMS Alumni"/>
     <preference name="FACEBOOK_HYBRID_APP_EVENTS" default="false" />
-    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="11.0.0"/>
+    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="13.0.0"/>
     <preference name="FACEBOOK_iOS_SDK_VERSION" default="11.1.1"/>
 
     <engines>
@@ -46,7 +46,7 @@
             <access origin="https://api.facebook.com" />
             <access origin="https://*.fbcdn.net" />
             <access origin="https://*.akamaihd.net" />
-            <preference name="android-minSdkVersion" value="15" />
+            <preference name="android-minSdkVersion" value="16" />
         </config-file>
 
         <source-file src="src/android/facebookconnect.xml" target-dir="res/values" />
