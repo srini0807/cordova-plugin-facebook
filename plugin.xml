@@ -169,8 +169,8 @@
             </config>
             <pods use-frameworks="true">
                 <pod name="FBSDKCoreKit" spec="$FACEBOOK_iOS_SDK_VERSION"/>
-                <pod name="FBSDKLoginKit" spec="FACEBOOK_iOS_SDK_VERSION"/>
-                <pod name="FBSDKShareKit" spec="FACEBOOK_iOS_SDK_VERSION"/>
+                <pod name="FBSDKLoginKit" spec="$FACEBOOK_iOS_SDK_VERSION"/>
+                <pod name="FBSDKShareKit" spec="$FACEBOOK_iOS_SDK_VERSION"/>
             </pods>
         </podspec>
 
